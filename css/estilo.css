@@ -1,0 +1,462 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* fuentes externas de letras */
+@font-face {
+    font-family: 'Heycomic';
+    src: url(../Fuentes/Hey\ Comic.ttf);
+}
+
+@font-face {
+    font-family: 'IBMPlexSerif';
+    src: url(../Fuentes/IBMPlexSerif-Bold.ttf);
+}
+/* fuentes externas de letras */
+@media screen and (max-width: 320px){
+
+    header{
+    background-color: #D37A47;
+    width: 320px;
+    align-items: center;
+    font-family: 'IBMPlexSerif';
+    display: flex;
+    flex-direction: column;
+    color: white;
+    grid-area: header;
+}
+
+.contenedor{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header--logo{
+    width: min-content;
+    height: min-content;
+}
+
+.header--inicio{
+    height: min-content;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;  
+}
+
+.header--carrito{
+    height: min-content;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white; 
+}
+
+.navbar{
+    background-color: #C26F41 ;
+    justify-content: flex-end;
+}
+
+body{
+    width: 320px;
+    background-color: #DFC7A3;
+}
+
+.barraDeMenu {
+    background-color: #C26F41;
+    display: flex;
+    list-style: none;
+    line-height: 100%;
+    width: 100%;
+    font-family: 'IBMPlexSerif';
+    color: white;
+
+}
+
+main{
+    background-color: #DFC7A3;
+    grid-area: main;
+    height: 1800px;
+    width: 320px;
+}
+/* info ofertas */
+.ofertasInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+}
+
+
+.titulo--envio{
+    text-decoration: underline;
+    margin-left: 20%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    grid-area: tenvio;
+}
+
+.titulo--compra{
+    text-decoration: underline;
+    margin-left: 20%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    grid-area: tcompra;
+}
+
+.titulo--descuento{
+    text-decoration: underline;
+    margin-left: 20%;
+    text-align: center;
+    padding-top: 30px;
+    width: 200px;
+    color: black;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    grid-area: tdescuento;
+}
+
+.subtitulo--envio{
+    margin-left: 20%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    opacity: 60%;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    grid-area: senvio;
+}
+
+.subtitulo--compra{
+    margin-left: 20%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    opacity: 60%;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    grid-area: scompra;
+}
+
+.subtitulo--descuento{
+    margin-left: 20%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    opacity: 60%;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    grid-area: sdescuento;
+}
+.novedades{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: overline;
+    font-family: 'Heycomic';
+}
+/* info ofertas */
+/* mangas */
+.mangas{
+    display: flex;
+}
+.card--jujutsu{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+.card--promised{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.card--haikyu{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.card--tokyog{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.card--tokyo{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+.portada{
+    height: 180px;
+    width: 128px;
+    object-fit: cover;
+}
+
+.card--slam{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.btn{
+    background-color: green;
+    color: black;
+    font-size: large;
+}
+/* mangas */
+
+/* inicio de sesion */
+.contenedor--sesion{
+    margin-top: 50px;
+}
+.main--sesion{
+    height: 500px;
+}
+}
+/* fin de inisio de sesion */
+
+@media screen and (min-width: 321px){
+    header{
+        background-color: #C26F41;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        
+}
+.header--inicio{
+    font-family: 'IBMPlexSerif';
+    color: white;
+    text-decoration: none;
+}
+.header--inicio:hover{
+    opacity: 50%;
+}
+.header--carrito{
+    font-family: 'IBMPlexSerif';
+    color: white;
+    text-decoration: none;
+
+}
+.header--carrito:hover{
+    opacity: 50%;
+}
+nav{
+    background-color: #D37A47;
+    height: 60px;
+}
+.barraDeMenu{
+    margin-bottom: 30px;
+}
+main {
+    width: 100%;
+    background-color: #DFC7A3;
+    height: 2000px;
+    grid-area: main;
+
+}
+.carrousel{
+   width: 1000px;
+
+}
+.ofertasInfo {
+    display: grid;
+}
+
+
+.titulo--envio {
+     text-decoration: underline;
+    margin-left: 1%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    grid-area: tenvio;
+    display: flex;
+    grid-area: tenvio;
+
+}
+
+.titulo--compra {
+    text-decoration: underline;
+    margin-left: 1px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    grid-area: tenvio;
+    display: flex;
+    grid-area: tcompra;
+
+}
+
+.titulo--descuento {
+    text-decoration: underline;
+    margin-left: 1%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    grid-area: tenvio;
+    display: flex;
+    grid-area: tdescuento;
+
+}
+
+.subtitulo--envio {
+    margin-left: 1%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    opacity: 60%;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    display: flex;
+    grid-area: senvio;
+
+}
+
+.subtitulo--compra {
+    margin-left: 1px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    opacity: 60%;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    display: flex;
+    grid-area: scompra;
+
+}
+
+.subtitulo--descuento {
+    margin-left: 1%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    opacity: 60%;
+    font-size: large;
+    font-family: 'IBMPlexSerif';
+    display: flex;
+    grid-area: sdescuento;
+
+}
+.ofertasInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "tenvio tcompra tdescuento"
+        "senvio scompra sdescuento";
+}
+.novedades{
+    padding-top: 3%;
+    text-align: center;
+    text-decoration: overline;
+    font-family: 'Heycomic';
+}
+
+.mangasD{
+    display: grid;
+    padding-left: 25%;
+}
+.mangas{
+    flex-direction: row;
+}
+
+.card--jujutsu{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    grid-area: cjujutsu;
+}
+.card--promised{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    grid-area: cpromised;
+}
+
+.card--haikyu{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    grid-area: chaikyu;
+}
+
+.card--tokyog{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    grid-area: ctokyog;
+}
+
+.card--tokyo{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    grid-area: ctokyo;
+}
+.portada{
+    height: 200px;
+    width: 128px;
+    object-fit: cover;
+}
+
+.card--slam{
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    grid-area: cslam;
+}
+
+.btn{
+    background-color: green;
+    color: black;
+    font-size: large;
+}
+
+.mangasD{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: repeat(6 1fr);
+    grid-template-areas:
+        "cjujutsu cpromised chaikyu ctokyog ctokyo cslam ";
+}
+.portada{
+    height: 280px;
+    width: 228px;
+    object-fit: cover;
+    border: solid;
+}
+/* inicio de sesion */
+.form-check-label{
+    
+    width: 100px;
+}
+main{
+    padding-top: 200px;
+    height: 2000px;
+}
+.contenedor--sesion{
+    margin-left: 35%;
+    width: 320px;
+    height: 150px;
+}
+}
