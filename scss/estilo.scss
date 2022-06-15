@@ -1,0 +1,16 @@
+$colorsSub:red;
+@import "column1";
+@import "column2";
+@import "column3";
+ .checklist{
+        text-decoration: underline;
+        text-align: center;
+    }
+    .editoriales{display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "column1 column2 column3";
+       
+        
+        
+    }
